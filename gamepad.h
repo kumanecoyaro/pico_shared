@@ -14,8 +14,8 @@ namespace io
         bool connected{false};
         struct Button
         {
-            inline static constexpr int A = 1 << 0;
-            inline static constexpr int B = 1 << 1;
+            inline static constexpr int A = 1 << 1;
+            inline static constexpr int B = 1 << 0;
             inline static constexpr int X = 1 << 2;
             inline static constexpr int Y = 1 << 3;
             inline static constexpr int C = 1 << 4;
